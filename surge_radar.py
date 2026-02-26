@@ -1,3 +1,4 @@
+# Updated for FIFA 2026 Surge Planning
 import streamlit as st
 import plotly.graph_objects as go
 
@@ -123,4 +124,5 @@ with col2:
         height=400,
         yaxis_title="Patient Volume"
     )
+
     st.plotly_chart(fig_waterfall, use_container_width=True)
