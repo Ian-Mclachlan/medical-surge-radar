@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Ping Streamlit App
         # Replace the URL below with your actual dashboard link
-        run: curl -sL "https://medical-surge-radar-wuvpukrvhzx6lfeez2ihu9.streamlit.app" > /dev/null
+        run: curl -sL "https://medical-surge-radar-wuvpukrvhzx6lfeez2ihu9.streamlit.app/_stcore/health" > /dev/null
